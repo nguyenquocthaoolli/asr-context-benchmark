@@ -50,4 +50,4 @@ The noisy short-answer fixture `accept_en-us_noise12db` has TTS input “Yes, th
 - [`results/environment.json`](results/environment.json): execution commands and hardware.
 - [`FAILURE_REPORT.md`](FAILURE_REPORT.md): standalone behavior report for a repository discussion.
 
-Publication authorized by the project owner on 2026-11-02; see the repository README for project context.
+Published on 2026-11-02 in [asr-context-benchmark](https://github.com/nguyenquocthaoolli/asr-context-benchmark) and shared in [faster-whisper Q&A #1687](https://github.com/SYSTRAN/faster-whisper/discussions/1687).

@@ -66,6 +66,8 @@ This overwrites WAVs and their manifest. Tool/version changes can produce differ
 
 ## Contribution and publication status
 
+Published repository: [nguyenquocthaoolli/asr-context-benchmark](https://github.com/nguyenquocthaoolli/asr-context-benchmark). Maintainer question: [faster-whisper discussion #1687](https://github.com/SYSTRAN/faster-whisper/discussions/1687).
+
 This repository contains the complete pilot and a reproducible behavior report in `FAILURE_REPORT.md`, not a claim of a new implementation defect. The highlighted name clip has been checked by the project owner; the remaining fixtures still need human validation. Keep model weights and virtual environments out of Git; their download instructions and hashes are included instead.
 
 Useful follow-ups are human-validated audio; more speakers and languages; balanced unrelated/stale contexts; multiple prompt wordings; a larger Whisper model; and adapters to contextual streaming APIs. Test each provider's native context interface separately.
