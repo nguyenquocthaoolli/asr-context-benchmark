@@ -1,0 +1,14 @@
+[
+ {"id":"cancel","category":"negation","reference":"No, do not cancel it.","relevant":"We are discussing whether to cancel an appointment.","misleading":"The customer wants to cancel an appointment."},
+ {"id":"renew","category":"negation","reference":"Please do not renew it.","relevant":"We are discussing subscription renewal preferences.","misleading":"The customer has requested automatic subscription renewal."},
+ {"id":"accept","category":"short-answer","reference":"Yes, that is correct.","relevant":"We are checking whether the shipping address is correct.","misleading":"The customer says the shipping address is wrong."},
+ {"id":"decline","category":"short-answer","reference":"No, thank you.","relevant":"We are discussing an optional account upgrade.","misleading":"The customer is eager to accept the account upgrade."},
+ {"id":"name","category":"name","reference":"My name is Mira Patel.","relevant":"The customer directory includes Mira Patel and Nora Chen.","misleading":"The customer directory includes Nina Patel and Laura Chen."},
+ {"id":"city","category":"place","reference":"I live in Bristol.","relevant":"The service area includes Bristol and Bath.","misleading":"The service area includes Boston and Baltimore."},
+ {"id":"product","category":"technical-term","reference":"We use Kubernetes.","relevant":"Infrastructure tools include Kubernetes, Docker and Terraform.","misleading":"Office tools include QuickBooks, Excel and PowerPoint."},
+ {"id":"time","category":"correction","reference":"Tuesday, sorry, Thursday.","relevant":"We are arranging the day of a meeting.","misleading":"The meeting has been confirmed for Tuesday."},
+ {"id":"quantity","category":"correction","reference":"I need two, not three.","relevant":"We are confirming the quantity of tickets.","misleading":"The customer has requested three tickets."},
+ {"id":"code","category":"identifier","reference":"The code is seven four nine.","relevant":"We are checking a three digit access code.","misleading":"The access code on the account is seven five nine."},
+ {"id":"street","category":"address","reference":"It is on Cedar Street.","relevant":"Local roads include Cedar Street and Oak Avenue.","misleading":"Local roads include Center Street and Park Avenue."},
+ {"id":"refund","category":"intent","reference":"I want a refund, not a replacement.","relevant":"The return options are a refund or a replacement.","misleading":"The customer has already chosen a replacement."}
+]

@@ -1,0 +1,107 @@
+{
+  "0": {
+    "none": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 3,
+      "wer": 0.3333333333333333,
+      "exact_match_rate": 0.5
+    },
+    "relevant": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 3,
+      "wer": 0.3333333333333333,
+      "exact_match_rate": 0.5
+    },
+    "misleading": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 4,
+      "wer": 0.4444444444444444,
+      "exact_match_rate": 0.0
+    },
+    "paired": {
+      "relevant": {
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 2
+      },
+      "misleading": {
+        "improved": 0,
+        "worsened": 1,
+        "unchanged": 1
+      }
+    }
+  },
+  "1": {
+    "none": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 3,
+      "wer": 0.3333333333333333,
+      "exact_match_rate": 0.5
+    },
+    "relevant": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 3,
+      "wer": 0.3333333333333333,
+      "exact_match_rate": 0.5
+    },
+    "misleading": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 4,
+      "wer": 0.4444444444444444,
+      "exact_match_rate": 0.0
+    },
+    "paired": {
+      "relevant": {
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 2
+      },
+      "misleading": {
+        "improved": 0,
+        "worsened": 1,
+        "unchanged": 1
+      }
+    }
+  },
+  "2": {
+    "none": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 3,
+      "wer": 0.3333333333333333,
+      "exact_match_rate": 0.5
+    },
+    "relevant": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 3,
+      "wer": 0.3333333333333333,
+      "exact_match_rate": 0.5
+    },
+    "misleading": {
+      "n": 2,
+      "reference_words": 9,
+      "word_errors": 4,
+      "wer": 0.4444444444444444,
+      "exact_match_rate": 0.0
+    },
+    "paired": {
+      "relevant": {
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 2
+      },
+      "misleading": {
+        "improved": 0,
+        "worsened": 1,
+        "unchanged": 1
+      }
+    }
+  }
+}

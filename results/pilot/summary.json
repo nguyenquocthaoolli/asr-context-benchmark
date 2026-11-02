@@ -1,0 +1,37 @@
+{
+  "0": {
+    "none": {
+      "n": 48,
+      "reference_words": 220,
+      "word_errors": 90,
+      "wer": 0.4090909090909091,
+      "exact_match_rate": 0.375
+    },
+    "relevant": {
+      "n": 48,
+      "reference_words": 220,
+      "word_errors": 72,
+      "wer": 0.32727272727272727,
+      "exact_match_rate": 0.4791666666666667
+    },
+    "misleading": {
+      "n": 48,
+      "reference_words": 220,
+      "word_errors": 61,
+      "wer": 0.2772727272727273,
+      "exact_match_rate": 0.4583333333333333
+    },
+    "paired": {
+      "relevant": {
+        "improved": 12,
+        "worsened": 4,
+        "unchanged": 32
+      },
+      "misleading": {
+        "improved": 14,
+        "worsened": 4,
+        "unchanged": 30
+      }
+    }
+  }
+}

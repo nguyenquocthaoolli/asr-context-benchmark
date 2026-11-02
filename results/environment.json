@@ -1,0 +1,11 @@
+{
+  "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+  "python": "3.13.1",
+  "system": "Linux",
+  "architecture": "x86_64",
+  "threads_per_model": 4,
+  "pilot_command": "python run_benchmark.py --model-dir models/tiny.en --output results/pilot",
+  "reproduction_command": "python run_benchmark.py --model-dir models/tiny.en --sample name_en-gb_clean --sample accept_en-us_noise12db --repetitions 3 --output results/reproduction",
+  "audio_loading": "Python wave -> float32 NumPy PCM / 32768; bypasses PyAV decoder incompatibility with faster-whisper 1.2.1",
+  "preinstalled_runtime": "Not used; isolated venv used for all inference"
+}

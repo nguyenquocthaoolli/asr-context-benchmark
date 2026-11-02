@@ -1,0 +1,166 @@
+{
+  "0": {
+    "conditions": {
+      "none": {
+        "n": 48,
+        "reference_words": 220,
+        "word_errors": 90,
+        "wer": 0.4090909090909091,
+        "exact_match_rate": 0.375,
+        "median_offline_compute_s": 0.508739937999735,
+        "by_audio_variant": {
+          "clean": {
+            "n": 24,
+            "reference_words": 110,
+            "word_errors": 31,
+            "wer": 0.2818181818181818,
+            "exact_match_rate": 0.5
+          },
+          "noise12db": {
+            "n": 24,
+            "reference_words": 110,
+            "word_errors": 59,
+            "wer": 0.5363636363636364,
+            "exact_match_rate": 0.25
+          }
+        }
+      },
+      "relevant": {
+        "n": 48,
+        "reference_words": 220,
+        "word_errors": 72,
+        "wer": 0.32727272727272727,
+        "exact_match_rate": 0.4791666666666667,
+        "median_offline_compute_s": 0.5113548005001576,
+        "by_audio_variant": {
+          "clean": {
+            "n": 24,
+            "reference_words": 110,
+            "word_errors": 32,
+            "wer": 0.2909090909090909,
+            "exact_match_rate": 0.5416666666666666
+          },
+          "noise12db": {
+            "n": 24,
+            "reference_words": 110,
+            "word_errors": 40,
+            "wer": 0.36363636363636365,
+            "exact_match_rate": 0.4166666666666667
+          }
+        }
+      },
+      "misleading": {
+        "n": 48,
+        "reference_words": 220,
+        "word_errors": 61,
+        "wer": 0.2772727272727273,
+        "exact_match_rate": 0.4583333333333333,
+        "median_offline_compute_s": 0.5083459799998309,
+        "by_audio_variant": {
+          "clean": {
+            "n": 24,
+            "reference_words": 110,
+            "word_errors": 15,
+            "wer": 0.13636363636363635,
+            "exact_match_rate": 0.6666666666666666
+          },
+          "noise12db": {
+            "n": 24,
+            "reference_words": 110,
+            "word_errors": 46,
+            "wer": 0.41818181818181815,
+            "exact_match_rate": 0.25
+          }
+        }
+      }
+    },
+    "paired": {
+      "relevant": {
+        "fewer_word_errors": 12,
+        "more_word_errors": 4,
+        "same_word_error_count": 32,
+        "normalized_transcript_changed": 18
+      },
+      "misleading": {
+        "fewer_word_errors": 14,
+        "more_word_errors": 4,
+        "same_word_error_count": 30,
+        "normalized_transcript_changed": 22
+      }
+    },
+    "lexical_regressions": [
+      {
+        "sample_id": "cancel_en-us_clean",
+        "condition": "relevant",
+        "reference": "No, do not cancel it.",
+        "none": "No, do not cancel it.",
+        "context_output": "No, not cancel it.",
+        "prompt": "We are discussing whether to cancel an appointment.",
+        "extra_word_errors": 1
+      },
+      {
+        "sample_id": "cancel_en-us_clean",
+        "condition": "misleading",
+        "reference": "No, do not cancel it.",
+        "none": "No, do not cancel it.",
+        "context_output": "No, not cancel it.",
+        "prompt": "The customer wants to cancel an appointment.",
+        "extra_word_errors": 1
+      },
+      {
+        "sample_id": "name_en-gb_clean",
+        "condition": "misleading",
+        "reference": "My name is Mira Patel.",
+        "none": "My name is Mira Patel.",
+        "context_output": "My name is Nina Patel.",
+        "prompt": "The customer directory includes Nina Patel and Laura Chen.",
+        "extra_word_errors": 1
+      },
+      {
+        "sample_id": "name_en-gb_noise12db",
+        "condition": "misleading",
+        "reference": "My name is Mira Patel.",
+        "none": "My name is Mira Patel.",
+        "context_output": "My name is Mia Rafael.",
+        "prompt": "The customer directory includes Nina Patel and Laura Chen.",
+        "extra_word_errors": 2
+      },
+      {
+        "sample_id": "name_en-us_clean",
+        "condition": "misleading",
+        "reference": "My name is Mira Patel.",
+        "none": "My name is Mira Patel.",
+        "context_output": "My name is Mia Patel.",
+        "prompt": "The customer directory includes Nina Patel and Laura Chen.",
+        "extra_word_errors": 1
+      },
+      {
+        "sample_id": "street_en-gb_noise12db",
+        "condition": "relevant",
+        "reference": "It is on Cedar Street.",
+        "none": "It's a non-seena street.",
+        "context_output": "It's a non-se enough street.",
+        "prompt": "Local roads include Cedar Street and Oak Avenue.",
+        "extra_word_errors": 1
+      },
+      {
+        "sample_id": "time_en-us_clean",
+        "condition": "relevant",
+        "reference": "Tuesday, sorry, Thursday.",
+        "none": "Two days, sorry, Thursday.",
+        "context_output": "Two days are the first day.",
+        "prompt": "We are arranging the day of a meeting.",
+        "extra_word_errors": 4
+      },
+      {
+        "sample_id": "time_en-us_noise12db",
+        "condition": "relevant",
+        "reference": "Tuesday, sorry, Thursday.",
+        "none": "Tuesday, Saturday, Thursday.",
+        "context_output": "Two days, sorry, turn the day.",
+        "prompt": "We are arranging the day of a meeting.",
+        "extra_word_errors": 4
+      }
+    ]
+  }
+}

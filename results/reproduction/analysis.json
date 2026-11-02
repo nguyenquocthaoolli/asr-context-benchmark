@@ -1,0 +1,305 @@
+{
+  "0": {
+    "conditions": {
+      "none": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 3,
+        "wer": 0.3333333333333333,
+        "exact_match_rate": 0.5,
+        "median_offline_compute_s": 0.5046664215001329,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 0,
+            "wer": 0.0,
+            "exact_match_rate": 1.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      },
+      "relevant": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 3,
+        "wer": 0.3333333333333333,
+        "exact_match_rate": 0.5,
+        "median_offline_compute_s": 0.49656486250000853,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 0,
+            "wer": 0.0,
+            "exact_match_rate": 1.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      },
+      "misleading": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 4,
+        "wer": 0.4444444444444444,
+        "exact_match_rate": 0.0,
+        "median_offline_compute_s": 0.5042400720001297,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 1,
+            "wer": 0.2,
+            "exact_match_rate": 0.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      }
+    },
+    "paired": {
+      "relevant": {
+        "fewer_word_errors": 0,
+        "more_word_errors": 0,
+        "same_word_error_count": 2,
+        "normalized_transcript_changed": 0
+      },
+      "misleading": {
+        "fewer_word_errors": 0,
+        "more_word_errors": 1,
+        "same_word_error_count": 1,
+        "normalized_transcript_changed": 1
+      }
+    },
+    "lexical_regressions": [
+      {
+        "sample_id": "name_en-gb_clean",
+        "condition": "misleading",
+        "reference": "My name is Mira Patel.",
+        "none": "My name is Mira Patel.",
+        "context_output": "My name is Nina Patel.",
+        "prompt": "The customer directory includes Nina Patel and Laura Chen.",
+        "extra_word_errors": 1
+      }
+    ]
+  },
+  "1": {
+    "conditions": {
+      "none": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 3,
+        "wer": 0.3333333333333333,
+        "exact_match_rate": 0.5,
+        "median_offline_compute_s": 0.5246458444999007,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 0,
+            "wer": 0.0,
+            "exact_match_rate": 1.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      },
+      "relevant": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 3,
+        "wer": 0.3333333333333333,
+        "exact_match_rate": 0.5,
+        "median_offline_compute_s": 0.5233694199998808,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 0,
+            "wer": 0.0,
+            "exact_match_rate": 1.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      },
+      "misleading": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 4,
+        "wer": 0.4444444444444444,
+        "exact_match_rate": 0.0,
+        "median_offline_compute_s": 0.4796501294999871,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 1,
+            "wer": 0.2,
+            "exact_match_rate": 0.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      }
+    },
+    "paired": {
+      "relevant": {
+        "fewer_word_errors": 0,
+        "more_word_errors": 0,
+        "same_word_error_count": 2,
+        "normalized_transcript_changed": 0
+      },
+      "misleading": {
+        "fewer_word_errors": 0,
+        "more_word_errors": 1,
+        "same_word_error_count": 1,
+        "normalized_transcript_changed": 1
+      }
+    },
+    "lexical_regressions": [
+      {
+        "sample_id": "name_en-gb_clean",
+        "condition": "misleading",
+        "reference": "My name is Mira Patel.",
+        "none": "My name is Mira Patel.",
+        "context_output": "My name is Nina Patel.",
+        "prompt": "The customer directory includes Nina Patel and Laura Chen.",
+        "extra_word_errors": 1
+      }
+    ]
+  },
+  "2": {
+    "conditions": {
+      "none": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 3,
+        "wer": 0.3333333333333333,
+        "exact_match_rate": 0.5,
+        "median_offline_compute_s": 0.5215665104999516,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 0,
+            "wer": 0.0,
+            "exact_match_rate": 1.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      },
+      "relevant": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 3,
+        "wer": 0.3333333333333333,
+        "exact_match_rate": 0.5,
+        "median_offline_compute_s": 0.5285064514998794,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 0,
+            "wer": 0.0,
+            "exact_match_rate": 1.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      },
+      "misleading": {
+        "n": 2,
+        "reference_words": 9,
+        "word_errors": 4,
+        "wer": 0.4444444444444444,
+        "exact_match_rate": 0.0,
+        "median_offline_compute_s": 0.5041490814999179,
+        "by_audio_variant": {
+          "clean": {
+            "n": 1,
+            "reference_words": 5,
+            "word_errors": 1,
+            "wer": 0.2,
+            "exact_match_rate": 0.0
+          },
+          "noise12db": {
+            "n": 1,
+            "reference_words": 4,
+            "word_errors": 3,
+            "wer": 0.75,
+            "exact_match_rate": 0.0
+          }
+        }
+      }
+    },
+    "paired": {
+      "relevant": {
+        "fewer_word_errors": 0,
+        "more_word_errors": 0,
+        "same_word_error_count": 2,
+        "normalized_transcript_changed": 0
+      },
+      "misleading": {
+        "fewer_word_errors": 0,
+        "more_word_errors": 1,
+        "same_word_error_count": 1,
+        "normalized_transcript_changed": 1
+      }
+    },
+    "lexical_regressions": [
+      {
+        "sample_id": "name_en-gb_clean",
+        "condition": "misleading",
+        "reference": "My name is Mira Patel.",
+        "none": "My name is Mira Patel.",
+        "context_output": "My name is Nina Patel.",
+        "prompt": "The customer directory includes Nina Patel and Laura Chen.",
+        "extra_word_errors": 1
+      }
+    ]
+  }
+}

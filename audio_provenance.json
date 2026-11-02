@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "espeak-ng": "eSpeak NG text-to-speech: 1.51  Data at: /usr/lib/x86_64-linux-gnu/espeak-ng-data",
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+  },
+  "synthetic": true,
+  "human_audio": false,
+  "sample_rate": 16000,
+  "speed_wpm": 155,
+  "noise": "Gaussian white noise, nominal 12 dB; RMS uses complete unpadded TTS waveform",
+  "cases_sha256": "e3922a90ed24117486d7cf190335637701c076670c4b4638319fefe832d95be2"
+}
